@@ -18,8 +18,7 @@ public class HazavaoController {
 
   private final RestTemplate restTemplate;
 
-  @Value("${OPENAI_API_KEY}")
-  private final String OPENAI_API_KEY;
+  private final String OPENAI_API_KEY = "API KEY";
 
   @GetMapping("/hazavao")
   public ResponseEntity<String> hazavao(@RequestParam String teny) {
