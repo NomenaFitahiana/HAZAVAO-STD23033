@@ -21,4 +21,9 @@ public class EndpointConf {
     objectMapper.findAndRegisterModules();
     return objectMapper;
   }
+
+  @Bean
+  public RestTemplate restTemplate() {
+    return new RestTemplate();
+  }
 }
