@@ -18,6 +18,6 @@ public class HazavaoController {
 
   @GetMapping("/hazavao")
   public String hazavao() {
-    return TenyTest;
+    return "TenyTest";
   }
 }
