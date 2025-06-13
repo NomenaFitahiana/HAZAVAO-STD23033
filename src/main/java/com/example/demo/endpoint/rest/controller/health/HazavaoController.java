@@ -4,7 +4,7 @@ package com.example.demo.endpoint.rest.controller.health;
 public class HazavaoController {
 
   @GetMapping("/hazavao")
-  public String hazavao(){
-    return teny;
+  public String hazavao() {
+    return TenyTest;
   }
 }
